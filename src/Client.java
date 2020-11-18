@@ -17,7 +17,7 @@ public class Client{
         out = new PrintWriter(clientSocket.getOutputStream(), true);
         in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
     	}catch(Exception e) {
-    		System.out.println("Server nicht erreichbar!");
+    		System.out.println("Server nicht erreichbar.");
     	}
     }
  
